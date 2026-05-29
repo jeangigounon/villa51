@@ -261,7 +261,7 @@ footer{background:var(--ink);color:rgba(255,255,255,.7);padding:48px;display:fle
   <div class="hero-content">
     <p class="hero-eyebrow">Saint-Paul-en-Forêt · Var · Provence</p>
     <h1>Villa Le 51</h1>
-    <p class="hero-sub">Une villa provençale authentique au cœur du massif des Maures</p>
+    <p class="hero-sub">Une villa provençale authentique au cœur du massif de l'Estérel</p>
     <div class="hero-badges">
       <span class="hero-badge">10 – 11 personnes</span>
       <span class="hero-badge">Piscine privée</span>
@@ -304,7 +304,7 @@ footer{background:var(--ink);color:rgba(255,255,255,.7);padding:48px;display:fle
         <div class="feat"><div><div class="feat-label">Grand jardin</div><div class="feat-sub">Oliviers, verger, nature</div></div></div>
         <div class="feat"><div><div class="feat-label">Pergola extérieure</div><div class="feat-sub">Table de 12 couverts</div></div></div>
         <div class="feat"><div><div class="feat-label">Cheminées</div><div class="feat-sub">Salon & suite principale</div></div></div>
-        <div class="feat"><div><div class="feat-label">Var — Massif des Maures</div><div class="feat-sub">Saint-Paul-en-Forêt</div></div></div>
+        <div class="feat"><div><div class="feat-label">Var — Massif de l'Estérel</div><div class="feat-sub">Saint-Paul-en-Forêt</div></div></div>
       </div>
     </div>
     <div class="intro-img">
@@ -431,7 +431,7 @@ footer{background:var(--ink);color:rgba(255,255,255,.7);padding:48px;display:fle
       <div class="nearby-cat">
         <div class="nearby-cat-title">Activités &amp; loisirs</div>
         <div class="nearby-item"><span class="nearby-item-name">Lac de Saint-Cassien</span><span class="nearby-item-dist">12 km</span></div>
-        <div class="nearby-item"><span class="nearby-item-name">Randonnées massif des Maures</span><span class="nearby-item-dist">sur place</span></div>
+        <div class="nearby-item"><span class="nearby-item-name">Randonnées massif de l'Estérel</span><span class="nearby-item-dist">sur place</span></div>
         <div class="nearby-item"><span class="nearby-item-name">Golf de Roquebrune</span><span class="nearby-item-dist">18 km</span></div>
         <div class="nearby-item"><span class="nearby-item-name">Parc Azur (aquatique)</span><span class="nearby-item-dist">28 km</span></div>
         <div class="nearby-item"><span class="nearby-item-name">Karting de Fréjus</span><span class="nearby-item-dist">30 km</span></div>
@@ -882,7 +882,7 @@ function checkHeroDates(){
 }
 
 // ── ADMIN ──
-const ADMIN_PWD = 'le51admin';
+const ADMIN_PWD = '123456789';
 const JSONBIN_KEY = '$2a$10$XLLk4zGUU1epTIDwaRNYOuJZ8E/TvIULOhUDAanSuufXcpiP2ZuaG';
 const JSONBIN_BIN = '69da216aaaba882197e90fde';
 
@@ -1142,7 +1142,6 @@ loadPublicGallery();
       <p class="section-tag" style="margin-bottom:8px">Administration</p>
       <h3 style="font-family:'Playfair Display',serif;font-size:22px;font-weight:400;margin-bottom:24px">Villa Le 51</h3>
       <div class="fr"><label>Mot de passe</label><input type="password" id="admin-pwd" placeholder="••••••••" onkeydown="if(event.key==='Enter')adminLogin()"/></div>
-      <div style="margin-top:4px;margin-bottom:16px;font-size:12px;color:var(--stone)">Mot de passe par défaut : <code style="background:var(--sand);padding:2px 5px;border-radius:3px;font-family:monospace">le51admin</code></div>
       <button class="admin-save-btn" style="width:100%" onclick="adminLogin()">Accéder</button>
       <button class="admin-close" style="width:100%;margin-top:10px" onclick="closeAdmin()">Annuler</button>
       <div class="admin-msg err" id="admin-login-err">Mot de passe incorrect.</div>
